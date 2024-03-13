@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.game {
+    width: 600px;
+    height: 600px;
+    margin:100px auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.name {
+    text-align: center;
+    background-color:#f25;
+    width: 300px;
+    padding: 20px;
+    margin:20px auto;
+    font-size: 30px;
+    color: white;
+}
+
+.name span {
+    color: #fa0;
+}
+
+.main-squer {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}  
+
+
+.squer {
+    background-color: #f25;
+    width: 183px;
+    height: 150px;
+    margin: 5px;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.squer:hover {
+    background-color: green;
+}
+
+
+.cliked-one {
+    background-color:#010;
+}
+
+.cliked-two {
+    background-color:gray;
+}
